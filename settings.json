@@ -1,0 +1,22 @@
+{
+    "chrome": {
+        "startup_url": "http://127.0.0.1:54000/",
+        "window": {
+            "title": "Joynal-IT",
+            "icon": "www/favicon.png",
+            "width": 1366,
+            "height": 768,
+            "maximized": true,
+            "resizable": true,
+            "fullscreen": false
+        }
+    },
+    "web_server": {
+        "www_directory": "www",
+        "listen_on": ["127.0.0.1", 54000],
+        "index_files": ["index.php"],
+        "cgi_interpreters": {
+            "php": "php/php-cgi.exe"
+        }
+    }
+}
